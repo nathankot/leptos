@@ -9,7 +9,7 @@ description = "Axum integrations for the Leptos web framework."
 rust-version.workspace = true
 
 [dependencies]
-axum = { version = "0.7", default-features = false, features = [
+axum = { git = "https://github.com/tokio-rs/axum", branch = "50c035c20b7bf7987b9b9b126574852318e92e2c", default-features = false, features = [
 	"matched-path",
 ] }
 futures = "0.3"
